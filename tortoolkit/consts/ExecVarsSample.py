@@ -4,20 +4,18 @@ except:
     class ExecVars:
         # TODO optimize for vps use fully - currently only heroku is focused
         # Set true if its VPS [currently not fully working]
-        IS_VPS = False
-        API_HASH = "d0def2fadec58c31403bf01a71454019"
-        API_ID = 2876934
-        BOT_TOKEN = "1566020755:AAGWr5tlzm0-x9LzlKciCO3eqU6RQT5Jw8E"
+        IS_VPS = Fals
+        API_HASH = "d0def2fadec58c31403b01a71454019"
+        API_ID = 287693
+        BOT_TOKEN = "1566020755:AAGWrlzm0-x9LzlKciCO3eqU6RQT5Jw8E"
         BASE_URL_OF_BOT = "https://nobittk002.herokuapp.com/"
-        # ALLOWED USERS [ids of user or supergroup] seperate by commas
-        ALD_USR = [1458912827,1467018377,1546675358,1444150889,1482853408,1333689035,935041758,885488992,-100374414317,-1001479070385,-100320640070,-1001422326809,-1001267728460]
+        # ALLOWED USERS [ids  user or supergroup] seperate by commas
+        ALD_USR = [145891827,1467018377,1546675358,1444150889,1482853408,1333689035,935041758,885488992,-100374414317,-1001479070385,-100320640070,-1001422326809,-1001267728460]
         
         # Time to wait before edit message
-        EDIT_SLEEP_SECS = 40
 
         # Telegram Upload Limit (in bytes)
-        TG_UP_LIMIT = 1800000000
-
+        TG_UP_LIMIT = 
         # Should force evething uploaded into Document
         FORCE_DOCUMENTS = False
 
